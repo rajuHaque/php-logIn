@@ -1,0 +1,538 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+    background-color: #2d2d2d !important;
+    font-family: source sans pro;
+    font-size: 14px;
+}
+
+.navbar-inverse {
+    background: none;
+}
+
+#mainNav {
+  background-color: none;
+  border:none;
+  padding-top: 30px;
+  transition: .5s
+}
+#mainNav.navbar-shrink {
+    background: black ;
+    transition: 1s;
+    padding-top: 20px;
+}
+
+
+#mainNav .navbar-toggler {
+  border: 0;
+  color: white;
+  background-color: #fed136;
+  font-size: 12px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 13px;
+  right: 0;
+}
+
+#menu ul {
+
+	padding: 0;
+    padding-top: 5px;
+}
+
+nav ul li {
+	margin-left: 20px;
+
+	
+}
+
+ nav ul li a:before {
+	content: '';
+    display: block;
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    background: red;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -40%;
+    opacity: 0;
+
+
+}
+
+ nav ul li .active:before,
+ nav ul li a:hover:before {
+	opacity: 1;
+}
+
+ nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: blue !important;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 4px 12px;
+    position: relative;
+    font-family: cursive;
+}
+
+ nav ul li .active,
+ nav ul li a:hover {
+	border: 1px solid #ccc;
+}
+
+/*----------------- End Nav ------------------- */
+
+.card-img-top{
+	height:225px;
+}
+.carddec{
+    margin-left: 10px;
+    height: 600px;
+    background-color: #e3e3e3;
+    border: 1px solid #004085;
+}
+
+.slider-main{
+    margin: 0 auto;
+    padding: 0;
+    height: 350px;
+    width: 100%;
+    background: url(../img/contact-us.jpg) no-repeat center center;
+    text-align: center;
+    background-size: cover;
+}
+
+
+.banner-text {
+    margin-top:160px;
+    padding-right: 0;
+}
+
+.banner-text h3{
+    color: black;
+    font-size: 25px;
+}
+
+.banner-text p{
+    margin-top:-15px;
+    padding: 0;
+    color: #252525;
+    font-size: 14px;
+
+}
+
+.banner-text p span a {
+    color: #e54148;
+}
+
+/*----------------- End Banner ------------------- */
+
+
+
+
+.contact-main {
+    padding: 100px 0px;
+    margin:0;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-title h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 3px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 16px 53px;
+    position: relative;
+    display: inline-block;
+}
+
+.contact-title h1:before{
+  content: '';
+  display: block;
+  width: 60%;
+  height: 3px;
+  background:red;
+  position: absolute;
+  bottom: -2px;
+  background: #00ccff;
+  left: 50%;
+  margin-left: -30%;
+  opacity: 1;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.contact-title p{
+    color: #e3e3e3;
+    letter-spacing: 1px;
+    padding-top: 6px;
+    font-size: 14px;
+
+}
+
+.contact-form {
+    margin-top: 70px;
+
+}
+
+.contact-form  .contact input{
+    outline: 0;
+}
+
+
+.contact-form  .contact textarea{
+    outline: 0;
+}
+
+.contact .submit-button button{
+    border-radius: 0;
+    background-color: #00ccff;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.contact .submit-button button:hover{
+    background-color: #e54148;
+}
+
+/* ................. End Clients Section .................. */
+/*------------panel-----------*/
+.panel-main {
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.panel-heading{
+    position: relative;
+}
+
+.panel-title{
+    display: block;
+}
+
+.panel-heading a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.panel-heading a:before {
+    content: "";
+    font-family: fontawesome;
+    height: 25px;
+    position: absolute;
+    right: 5%;
+    width: 25px;
+    color: rgb(0, 174 , 239);
+    text-align: center;
+    line-height: 27px;
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.panel-body{
+    border: 1px solid #00CCFF;
+}
+
+.panel-body p{
+    color: white;
+}
+/*------------panel-----------*/
+.footer{
+    background-color: #252525;
+    border-bottom: 1px solid #323232;
+
+    
+}
+
+
+
+.footer-content{
+    padding-top: 40px;
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.footer-content .title{
+    font-size: 15px;
+    color:white;
+    letter-spacing: 1px;
+
+}
+
+.footer-about {
+    margin-bottom: 40px;
+}
+
+.about-description {
+    margin: 0;
+    padding-top: 25px;
+}
+
+.about-description p{
+    font-size: 14px;
+    color: #c1bfbf;
+    line-height: 24px;
+}
+
+.footer-recent-post{
+    padding-bottom: 40px;
+}
+
+.recent-post-content{
+    margin: 0;
+    padding-top: 25px;
+}
+
+.recent-post-content ul{
+    margin: 0;
+    padding: 0;
+}
+
+.recent-post-content ul li{
+    list-style: none;
+    padding: 15px 0px 10px 0px;
+}
+
+.recent-post-content ul li a{
+    text-decoration: none;
+    color: #c1bfbf;
+    font-size: 14px;
+}
+
+.recent-post-content ul li a:hover{
+  
+    color: white;
+  
+}
+
+.recent-post-content ul li:not(:last-child){
+    border-bottom: 1px solid #323232;
+}
+
+
+.footer-contact-info{
+    padding-bottom: 10px;
+}
+
+.contact-info h3{
+    border-bottom: 2px solid #323232;
+}
+
+.address {
+    padding-top: 0px;
+    margin: 0;
+}
+
+.address ul{
+    margin: 0;
+    padding: 0;
+}
+
+.address ul li {
+    list-style: none;
+    color: #c1bfbf;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.address ul li:last-child{
+    padding-bottom: 12px;
+}
+
+.address ul li:not(:last-child){
+    line-height: 40px;
+}
+
+.social {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.social ul{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    list-style: none;
+}
+
+.social ul li{
+    margin-right: 5px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #00ccff;
+}
+
+.social ul li a {
+    font-size: 14px;
+    color: #c1bfbf;
+    line-height: 28px;
+    display: block;
+    
+}
+
+.social ul li:hover  {
+    background-color: #e54148;
+    border: 1px solid #e54148;
+}
+
+.social ul li a:hover {
+    color: white;
+}
+
+.footer-latest-work{
+    padding-bottom: 40px;
+}
+
+.works {
+    margin:0;
+    padding-top:40px;
+   
+}
+
+.works ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.works ul li{
+    padding: 0;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 6px;
+}
+
+.works ul li:hover{
+    opacity: .5;
+}
+
+.copy-right-main{
+     background-color: #252525;
+}
+
+.copy-right{
+    padding: 20px 0;
+    text-align: center;
+    color: #8a8989;
+    font-size: 14px;
+   
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+/*=====ScrollTop=====*/
+.back-to-top{
+    height: 20px;
+    width: 20px;
+     position: fixed;
+     bottom: 0px;
+     right: 10px;
+     display: none;
+     border-radius: 50%;
+ }
+
+
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+	
+}
+
+
+
+
+
+.open > .dropdown-toggle:before {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    background: red;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -40%;
+    opacity: 1;
+}
+ul.dropdown-menu .dropdown-toggle {
+    display: none;
+}
+ul.dropdown-menu li  {
+    margin-left: 0;
+    text-align: left;
+}
+
+ul.dropdown-menu li a {
+    border: none;
+    border-radius: 0;
+}
+ul.dropdown-menu li a:hover {
+    border: none;
+    background-color: rgba(255,255,255,0.1);
+}
+ul.dropdown-menu li a:before {
+    display: none;
+}
+a.dropdown-toggle {
+    display: none;
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+#pagetop nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}   
+}

@@ -1,0 +1,561 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+    background-color: #2d2d2d !important;
+    font-family: source sans pro;
+    font-size: 14px;
+}
+
+.navbar-inverse {
+    background: none;
+}
+
+#mainNav {
+  background-color: none;
+  border:none;
+  padding-top: 30px;
+  transition: .5s
+}
+#mainNav.navbar-shrink {
+    background: black ;
+    transition: 1s;
+    padding-top: 20px;
+}
+
+
+#mainNav .navbar-toggler {
+  border: 0;
+  color: white;
+  background-color: #fed136;
+  font-size: 12px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 13px;
+  right: 0;
+}
+
+#menu ul {
+
+	padding: 0;
+    padding-top: 5px;
+}
+
+nav ul li {
+	margin-left: 20px;
+
+	
+}
+
+ nav ul li a:before {
+	content: '';
+    display: block;
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    background: red;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -40%;
+    opacity: 0;
+
+
+}
+
+ nav ul li .active:before,
+ nav ul li a:hover:before {
+	opacity: 1;
+}
+
+ nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #fff !important;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 4px 12px;
+    position: relative;
+}
+
+ nav ul li .active,
+ nav ul li a:hover {
+	border: 1px solid #ccc;
+}
+
+/*----------------- End Nav ------------------- */
+
+
+
+
+.slider-main{
+    margin: 0 auto;
+    padding: 0;
+    height: 350px;
+    width: 100%;
+    background: url(../img/banner.jpg) no-repeat center center;
+    text-align: center;
+    background-size: cover;
+}
+
+
+.banner-text {
+    margin-top:160px;
+    padding-right: 0;
+}
+
+.banner-text h3{
+    color: white;
+    font-size: 25px;
+}
+
+.banner-text p{
+    margin-top:-15px;
+    padding: 0;
+    color: #e4e4e4;
+    font-size: 14px;
+
+}
+
+.banner-text p span a {
+    color: white;
+}
+
+/*----------------- End Banner ------------------- */
+
+
+
+
+
+.portfolio-details-main{
+    margin:100px 0px;
+    padding: 0;
+}
+
+.portfolio-total {
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-details{
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-details .title{
+    margin-top: -15px;
+    padding: 0;
+}
+
+.portfolio-details .title h3{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.portfolio-details .date{
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-details .date p{
+    color: #e3e3e3;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: -7px;
+}
+
+.portfolio-details .description{
+    margin-top:25px;
+    padding: 0;
+  
+}
+
+.portfolio-details .description p{
+    color: #e3e3e3;
+    font-size: 99%;
+    line-height: 1.8em;
+}
+
+.portfolio-details .categories{
+    margin-top: 40px;
+    padding: 0;
+}
+
+.portfolio-details .categories p{
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #e3e3e3;
+}
+
+.portfolio-details .categories p span{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 400;
+}
+
+.portfolio-details .client{
+    margin-top: -5px;
+    padding: 0;
+}
+
+.portfolio-details .client p{
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #e3e3e3;
+}
+
+.portfolio-details .client p span{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 400;
+}
+
+ .social-share{
+    margin-top: 30px;
+    padding: 0;
+}
+
+.social-share p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.icon ul {
+   margin: 0;
+   padding: 0;
+}
+
+.icon ul li{
+   list-style: none;
+   float: left;
+   border: 1px solid #00ccff;
+   width: 30px;
+   height: 30px;
+   line-height: 28px;
+   font-size: 14px;
+   margin-right: 5px;
+}
+
+.icon ul li a{
+    color: white;
+    display: block;
+}
+
+.icon ul li:hover {
+   border: 1px solid #e54148;
+   width: 30px;
+   height: 30px;
+   background-color: #e54148;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+/* ................. End Clients Section .................. */
+
+
+
+.footer{
+    background-color: #252525;
+    border-bottom: 1px solid #323232;
+
+    
+}
+
+
+
+.footer-content{
+    padding-top: 100px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.footer-content .title{
+    font-size: 15px;
+    color:white;
+    letter-spacing: 1px;
+
+}
+
+.footer-about {
+    margin-bottom: 40px;
+}
+
+.about-description {
+    margin: 0;
+    padding-top: 25px;
+}
+
+.about-description p{
+    font-size: 14px;
+    color: #c1bfbf;
+    line-height: 24px;
+}
+
+.footer-recent-post{
+    padding-bottom: 40px;
+}
+
+.recent-post-content{
+    margin: 0;
+    padding-top: 25px;
+}
+
+.recent-post-content ul{
+    margin: 0;
+    padding: 0;
+}
+
+.recent-post-content ul li{
+    list-style: none;
+    padding: 15px 0px 10px 0px;
+}
+
+.recent-post-content ul li a{
+    text-decoration: none;
+    color: #c1bfbf;
+    font-size: 14px;
+}
+
+.recent-post-content ul li a:hover{
+  
+    color: white;
+  
+}
+
+.recent-post-content ul li:not(:last-child){
+    border-bottom: 1px solid #323232;
+}
+
+
+.footer-contact-info{
+    padding-bottom: 40px;
+}
+
+.address {
+    padding-top: 25px;
+    margin: 0;
+}
+
+.address ul{
+    margin: 0;
+    padding: 0;
+}
+
+.address ul li {
+    list-style: none;
+    color: #c1bfbf;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.address ul li:last-child{
+    padding-bottom: 12px;
+    border-bottom: 1px solid #323232;
+}
+
+.address ul li:not(:last-child){
+    line-height: 40px;
+}
+
+.social {
+    margin-top: 17px;
+    padding: 0;
+}
+
+.social ul{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    list-style: none;
+}
+
+.social ul li{
+    margin-right: 5px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #00ccff;
+}
+
+.social ul li a {
+    font-size: 14px;
+    color: #c1bfbf;
+    line-height: 28px;
+    display: block;
+    
+}
+
+.social ul li:hover  {
+    background-color: #e54148;
+    border: 1px solid #e54148;
+}
+
+.social ul li a:hover {
+    color: white;
+}
+
+.footer-latest-work{
+    padding-bottom: 40px;
+}
+
+.works {
+    margin:0;
+    padding-top:40px;
+   
+}
+
+.works ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.works ul li{
+    padding: 0;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 6px;
+}
+
+.works ul li:hover{
+    opacity: .5;
+}
+
+.copy-right-main{
+     background-color: #252525;
+}
+
+.copy-right{
+    padding: 20px 0;
+    text-align: center;
+    color: #8a8989;
+    font-size: 14px;
+   
+}
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+	
+}
+
+
+
+
+
+.open > .dropdown-toggle:before {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    background: red;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -40%;
+    opacity: 1;
+}
+ul.dropdown-menu .dropdown-toggle {
+    display: none;
+}
+ul.dropdown-menu li  {
+    margin-left: 0;
+    text-align: left;
+}
+
+ul.dropdown-menu li a {
+    border: none;
+    border-radius: 0;
+}
+ul.dropdown-menu li a:hover {
+    border: none;
+    background-color: rgba(255,255,255,0.1);
+}
+ul.dropdown-menu li a:before {
+    display: none;
+}
+a.dropdown-toggle {
+    display: none;
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+#pagetop nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+} 
+
+.portfolio-details{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+#menu ul li{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+}
